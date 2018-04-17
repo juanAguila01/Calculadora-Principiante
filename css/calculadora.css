@@ -1,0 +1,24 @@
+.fila div{
+    line-height: 52px;
+}
+
+.row input{
+    height: 100%;
+    width: 110%;
+}
+.row:nth-child(2) div{
+    font-size: 25px
+}
+
+.fila div:nth-child(4) {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.row:nth-child(6) div:nth-child(3){
+    font-size: 25px;
+}
+
+.row:nth-child(6) div:nth-child(2){
+    font-size: 40px;
+}
