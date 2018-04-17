@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Calculadora js</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row header">
+            <div class="col-12 d-flex justify-content-center">
+                <h2 class="">CALCULADORA</h2>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="offset-3 col-1 btn btn-primary simbolo borrar boton">C</div>
+            <div class="col-5"><input type="text" class="form-control" id="input-calc" value="0"></div>
+        </div>
+        
+        <div class="row mt-2 d-flex align-items-cente fila">
+            <div class="offset-3 col-1 btn btn-primary numero siete boton">7</div>
+            <div class="col-1 btn btn-primary ml-4 numero ocho boton">8</div>
+            <div class="col-1 btn btn-primary ml-4 numero nueve boton">9</div>
+            <div class="col-2 btn btn-info ml-4 operacion dividir boton">/</div>
+        </div>
+        
+        <div class="row mt-2 d-flex align-items-cente fila">
+            <div class="offset-3 col-1 btn btn-primary numero cuatro boton">4</div>
+            <div class="col-1 btn btn-primary ml-4 numero cinco boton">5</div>
+            <div class="col-1 btn btn-primary ml-4 numero seis boton">6</div>
+            <div class="col-2 btn btn-info ml-4 operacion multiplicar boton">*</div>
+        </div>
+        
+        <div class="row mt-2 d-flex align-items-cente fila">
+            <div class="offset-3 col-1 btn btn-primary numero uno boton">1</div>
+            <div class="col-1 btn btn-primary ml-4 numero dos boton">2</div>
+            <div class="col-1 btn btn-primary ml-4 numero tres boton">3</div>
+            <div class="col-2 btn btn-info ml-4 operacion restar boton">-</div>
+        </div>
+        
+        <div class="row mt-2 d-flex align-items-cente fila">
+            <div class="offset-3 col-1 btn btn-primary numero cero boton">0</div>
+            <div class="col-1 btn btn-primary ml-4 simbolo punto boton">.</div>
+            <div class="col-1 btn btn-primary ml-4 simbolo igual boton">=</div>
+            <div class="col-2 btn btn-info ml-4 operacion sumar boton">+</div>
+        </div>
+        
+    </div>
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
