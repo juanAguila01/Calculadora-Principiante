@@ -92,7 +92,7 @@ function Resetear(){
             valor= '';
             transform= true;
             resultadoDeIgual= undefined;
-            console.log('pudrete');
+            
         })();
     }
 };
@@ -489,6 +489,7 @@ function Numeros(e){
                 break;
         }
     }
+    //solo comprueba el valor de valor.
     console.log(valor);
     
 }
